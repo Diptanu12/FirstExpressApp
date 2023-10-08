@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+
+*{
+    font-family: 'Prompt';
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+.myForm{
+ display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+.myInput{
+    width: 30%;
+    padding: 12px;
+    margin: 10px;
+    font-size: large;
+    border: 2px solid seagreen;
+    outline: none; 
+}
+.btn{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    background-color: rgb(35, 179, 119);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.conatiner{
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/logo.png")
+                
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/contact") Contact]
+
+    section#introSection
+        div 
+            | Welcome to
+            span.highlight  Diptanu's
+            |  Personal Property
+        div.small Eat Work Home Eat Sleep, Repeat
+    footer#footer
+        | Copyright @ 2023 Diptanu'sPersonalProperty.com | All right Reserved
